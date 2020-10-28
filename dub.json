@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Nafees Hassan"
+	],
+	"copyright": "Copyright © 2020, Nafees Hassan",
+	"dependencies": {
+		"qui": "~>0.4.2",
+		"utils": "~>0.3.8"
+	},
+	"description": "Controller for radar car",
+	"license": "MIT",
+	"name": "radcar"
+}
