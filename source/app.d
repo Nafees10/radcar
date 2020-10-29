@@ -1,7 +1,14 @@
-import std.stdio;
 import qui.qui;
 import qui.widgets;
+import radarwidget;
+
+import utils.misc;
 
 void main(){
-	writeln("Edit source/app.d to start your project.");
+	QTerminal term = new QTerminal();
+	RadarWidget radar = new RadarWidget();
+	term.addWidget(radar);
+	term.run();
+	.destroy(radar);
+	.destroy(term);
 }
